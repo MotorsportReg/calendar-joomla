@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Motorsport</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2014-02-18</creationDate>
+	<author>MotorsportReg.com</author>
+	<authorEmail>support@motorsportreg.com</authorEmail>
+	<authorUrl>http://api.motorsportreg.com</authorUrl>
+	<copyright>Copyright MotorsportReg.com</copyright>
+	<license>The only requirement for using our otherwise-free component is to retain unmodified links back to our site, thanks!</license>
+	<!-- The version string is recorded in the components table -->
+	<version>2</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Takes an event feed from the MotorsportReg.com REST API and displays a customized list on your Joomla 1.5.x website</description>	
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>motorsport.php</filename>
+		<filename>index.html</filename>
+		<filename>models/motorsport.php</filename>
+		<filename>views/motorsport/index.html</filename>
+		<filename>views/motorsport/view.html.php</filename>
+		<filename>views/motorsport/tmpl/index.html</filename>
+		<filename>views/motorsport/tmpl/default.php</filename>
+		<filename>views/index.html</filename>
+		<filename>css/style.css</filename>
+		<filename>images/register.gif</filename>
+	</files>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>	
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>MotorSport Registration</menu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Site Main File Copy Section -->
+			<filename>motorsport.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>controller.php</filename>
+			<filename>controllers/motorsport.php</filename>
+			<filename>controllers/index.html</filename>
+			<filename>models/motorsports.php</filename>
+			<filename>models/motorsport.php</filename>
+			<filename>models/index.html</filename>
+			<filename>tables/motorsport.php</filename>
+			<filename>tables/index.html</filename>
+			<filename>views/motorsport/view.html.php</filename>
+			<filename>views/motorsport/tmpl/form.php</filename>
+			<filename>views/motorsport/index.html</filename>
+			<filename>views/motorsport/tmpl/index.html</filename>
+			<filename>views/motorsports/view.html.php</filename>
+			<filename>views/motorsports/index.html</filename>
+			<filename>views/motorsports/tmpl/default.php</filename>
+			<filename>views/motorsports/tmpl/index.html</filename>
+			
+			<filename>images/icon-32-banner-client.png</filename>
+		</files>		
+	</administration>
+</install>

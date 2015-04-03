@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: MotorSport.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+	<fieldset>
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field 
+                        name="calenderurl" 
+                        type="text" 
+                        default="" 
+                        label="COM_MOTORSPORT_CALANDER_URL" 
+						size="40"
+					 	class="inputbox"
+                        description="COM_MOTORSPORT_CALANDER_URL">
+                    </field>
+					
+				<field name="msupdate_cachse" type="list"
+					 default="24"
+					 label="COM_MOTORSPORT_UPDATE_CACHE"
+					 description="COM_MOTORSPORT_UPDATE_CACHE">
+				     <option value="48">48 hours</option>
+				     <option value="24">24 hours</option>
+				</field>
+					 <field name="msr_eventname" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_NAME"
+					description="COM_MOTORSPORT_EVENT_NAME"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+					
+					 <field name="msr_venue" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_VANUE"
+					description="COM_MOTORSPORT_EVENT_VANUE"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+				
+					 <field name="msr_organization" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_ORGANIZATION"
+					description="COM_MOTORSPORT_EVENT_ORGANIZATION"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+				
+				
+					 <field name="msr_venuecity" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_CITY"
+					description="COM_MOTORSPORT_EVENT_CITY"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+					 
+					 <field name="msr_eventtype" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_TYPE"
+					description="COM_MOTORSPORT_EVENT_TYPE"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+					
+					 <field name="msr_eventdate" type="radio"
+					default="1"
+					label="COM_MOTORSPORT_EVENT_DATE"
+					description="COM_MOTORSPORT_EVENT_DATE"
+				>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+					
+					 
+	</fieldset>
+</form>
