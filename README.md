@@ -3,6 +3,8 @@ MotorsportReg Joomla Calendar Component
 
 Display a listing of motorsport events from MotorsportReg.com on any Joomla 1.5, 2.5 or 3.x website.  	
 
+![Looks like this...](http://api.motorsportreg.com/wordpress/sampledisplay.png)
+
 MotorsportReg.com is an online event registration service for motorsport driving and social events.  It is used by hundreds of car clubs, sanctioning bodies and race tracks across North America to organize driving schools, autocross, club and pro races, rally, rallycross, motorcycle, karting and social events.  Organizers can use the service for free to streamline their event registration and membership management tools.
 
 The only requirement for using our free component is to leave our link unedited at the bottom of the calendar listings that points back to MotorsportReg.com.  Thank you!
