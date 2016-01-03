@@ -161,7 +161,11 @@ $arr = json_encode($data);
 
 $data1 = json_decode($arr, true);
 
-$events = $data1["events"]["event"];
+if($data1["recordset"]["total"] == 1){
+	$events = $data1["events"];
+}else{
+	$events = $data1["events"]["event"];
+}
 
 $mosConfig_absolute_path = JPATH_SITE;
 $mosConfig_live_site = JURI :: base();
