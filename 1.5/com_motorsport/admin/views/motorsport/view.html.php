@@ -33,7 +33,7 @@ class MotorsportsViewMotorsport extends JView
 		$isNew		= ($motorsport->id < 1);
 
 		$text = $isNew ? JText::_( 'New' ) : JText::_( 'Edit Configuration' );
-		JToolBarHelper::title(   JText::_( 'Motor Sport Registration' ).': <small><small>[ ' . $text.' ]</small></small>' );
+		JToolBarHelper::title(   JText::_( 'MotorsportReg Calendar' ).': <small><small>[ ' . $text.' ]</small></small>' );
 		JToolBarHelper::save();
 		if ($isNew)  {
 			JToolBarHelper::cancel();

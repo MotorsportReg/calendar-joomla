@@ -48,7 +48,7 @@ class MotorSportViewMotorSports extends JView
 	 */
 	protected function addToolBar() 
 	{
-		JToolBarHelper::title(JText::_('Motor Sport Registration'));
+		JToolBarHelper::title(JText::_('MotorsportReg Calendar'));
 		//JToolBarHelper::deleteListX('', 'MotorSports.delete');
 		//JToolBarHelper::editListX('MotorSport.edit');
 		//JToolBarHelper::addNewX('MotorSport.add');

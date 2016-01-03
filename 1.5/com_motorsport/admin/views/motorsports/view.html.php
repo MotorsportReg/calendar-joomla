@@ -27,7 +27,7 @@ class MotorSportsViewMotorSports  extends JView
 	 **/
 	function display($tpl = null)
 	{
-		JToolBarHelper::title(   JText::_( 'Motor Sport Registration' ), 'generic.png' );
+		JToolBarHelper::title(   JText::_( 'MotorsportReg Calendar' ), 'generic.png' );
 		//JToolBarHelper::deleteList();
 		//JToolBarHelper::editListX();
 		//JToolBarHelper::addNewX();

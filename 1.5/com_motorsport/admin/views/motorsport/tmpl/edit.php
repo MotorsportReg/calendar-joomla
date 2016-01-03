@@ -118,7 +118,7 @@ if(isset($_POST['submit']))
 <form action="#" method="post" name="adminForm2" id="MotorSport-form2">
 <h2>Flush Data</h2>
 <input type="hidden" name="msr_calendar_cache" value="true" /> 
-<input style="cursor:pointer;" type="submit" name="submit" value="Flush Cacse" /></form>
+<input style="cursor:pointer;" type="submit" name="submit" value="Flush Cache" /></form>
 </div>
 	</fieldset>
 	

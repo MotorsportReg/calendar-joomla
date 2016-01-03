@@ -2,7 +2,7 @@
 <!-- $Id: MotorSport.xml 14 2009-11-02 18:35:20Z chdemko $ -->
 <extension type="component" version="1.6.0" method="upgrade">
 
-	<name>Motor Sport </name>
+	<name>Motor Sport</name>
 	<!-- The following elements are optional and free of formatting constraints -->
 	<creationDate>2014-02-18</creationDate>
 	<author>MotorsportReg.com</author>
